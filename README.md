@@ -1,6 +1,6 @@
-# try qemu @ ubuntu 23.04
+# try qemu@ubuntu 23.04
 
-En <https://www.youtube.com/watch?v=Zei8i9CpAn0> @ fedora ?
+- [ ] <https://www.youtube.com/watch?v=Zei8i9CpAn0>
 
 ### a guest host image (w10)
 
@@ -34,3 +34,17 @@ sudo apt install libosinfo-bin   -y  # ok
 ```
 
 reboot now
+
+avanzo, instalo... no tengo salida a internet :/
+
+
+- [ ] Otro tuto: qemu@linux es [este](https://www.youtube.com/watch?v=ISvdxtW-Cls), 
+mas orientado a CLI !!
+
+Usará kvm.
+
+- [ ] otro tuto: Para [qemu@windows](https://youtu.be/AGNz0GRb4PU?t=122) -con intel/haxm- :
+  - haxm descontinuado: virtualizar en w con el [hipervisor](https://www.redhat.com/es/topics/virtualization/what-is-a-hypervisor) [Hyper-V] (https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/about/).
+  - por ejemplo: **con Vagrant** (ver [link](https://developer.hashicorp.com/vagrant/docs/providers/hyperv))
+
+- Para qemu@linux -con haxm o kvm- : https://youtu.be/AGNz0GRb4PU?t=207
