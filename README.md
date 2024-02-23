@@ -32,17 +32,19 @@ sudo apt install bridge-utils    -y  # ok
 sudo apt install virt-manager    -y  # ok ...
 sudo apt install libosinfo-bin   -y  # ok
 ```
-
 reboot now
 
 avanzo, instalo... no tengo salida a internet :/
 
 - [ ] otro: <https://www.youtube.com/watch?v=Jxa5OtAPQjU>
+- [ ] Otro tuto: **qemu@linux** es [este](https://www.youtube.com/watch?v=ISvdxtW-Cls),
+mas orientado a CLI !! (y qemu es todo un ecosistema)
+  - [ ] **qemu vs kvm** [aqui](https://galvarado.com.mx/post/kvmqemu)
 
-- [ ] Otro tuto: qemu@linux es [este](https://www.youtube.com/watch?v=ISvdxtW-Cls),
-mas orientado a CLI !!
+    - "KVM es fork de QEMU"
+    - QEMU "necesita" a KVM (modulo kernel) (solo) para para ++rendimiento… (`--enable-kvm`)
+    - KVM por sí solo no es una solucion de virtualización completa; necesita de (algo como) QEMU.
 
-Usará kvm.
 
 - [ ] otro tuto: Para [qemu@windows](https://youtu.be/AGNz0GRb4PU?t=122) -con intel/haxm- :
   - haxm descontinuado: virtualizar en w con el [hipervisor](https://www.redhat.com/es/topics/virtualization/what-is-a-hypervisor) [Hyper-V] (<https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/about/>).
