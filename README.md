@@ -49,3 +49,6 @@ Usará kvm.
   - por ejemplo: **con Vagrant** (ver [link](https://developer.hashicorp.com/vagrant/docs/providers/hyperv))
 
 - Para qemu@linux -con haxm o kvm- : <https://youtu.be/AGNz0GRb4PU?t=207>
+
+Hyper-V.vs.OracleVirtualbox bien explicado [aqui](https://www.nakivo.com/es/blog/hyper-v-virtualbox-one-choose-infrastructure-3/)
+
