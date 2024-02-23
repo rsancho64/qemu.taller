@@ -62,6 +62,8 @@ qemu-system-x86_64 -m 2G -smp 2 --enable-kvm -name locOS LXDE 64 -boot d -hda ./
 qemu-system-x86_64 -m 2G -smp 2 --enable-kvm -name locOS LXDE 64 -boot d -hda ./hddloc-osqcow2 # uso del sistema instalado
 ```
 
+Ver `doit.sh`, todo snippets
+
 
 - [ ] otro tuto: Para [qemu@windows](https://youtu.be/AGNz0GRb4PU?t=122) -con intel/haxm- :
   - haxm descontinuado: virtualizar en w con el [hipervisor](https://www.redhat.com/es/topics/virtualization/what-is-a-hypervisor) [Hyper-V] (<https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/about/>).
